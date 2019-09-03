@@ -1,3 +1,4 @@
 #Adding new file in git project.
 This file is still not tracked by git 
 Adding some sample text to stash with a meaningful message  
+A Demo for Stashing over branches 
