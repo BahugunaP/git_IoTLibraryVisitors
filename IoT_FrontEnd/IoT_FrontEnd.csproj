@@ -94,10 +94,65 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="apple-touch-icon.png" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\etline-font.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\jquery.fancybox.css" />
+    <Content Include="css\normalize.min.css" />
+    <Content Include="css\queries.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="favicon-16x16.png" />
+    <Content Include="favicon-32x32.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\et-line.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="img\blank.gif" />
+    <Content Include="img\blog-img-01.jpg" />
+    <Content Include="img\blog-img-03.jpg" />
+    <Content Include="img\devices%402x.png" />
+    <Content Include="img\devices.png" />
+    <Content Include="img\fancybox_loading%402x.gif" />
+    <Content Include="img\fancybox_loading.gif" />
+    <Content Include="img\fancybox_overlay.png" />
+    <Content Include="img\fancybox_sprite%402x.png" />
+    <Content Include="img\fancybox_sprite.png" />
+    <Content Include="img\hero.jpg" />
+    <Content Include="img\ipad-device.png" />
+    <Content Include="img\polygonal-bg.jpg" />
+    <Content Include="img\sedna-logo%402x.png" />
+    <Content Include="img\sedna-logo.png" />
+    <Content Include="img\testimonials-bg.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery.fancybox.pack.js" />
+    <Content Include="js\jquery.flexslider-min.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="js\vendor\bootstrap.min.js" />
+    <Content Include="js\vendor\jquery-1.11.2.min.js" />
+    <Content Include="js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\et-line.eot" />
+    <Content Include="fonts\et-line.ttf" />
+    <Content Include="fonts\et-line.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="sass\ie.scss" />
+    <Content Include="sass\partials\_buttons.scss" />
+    <Content Include="sass\partials\_colors.scss" />
+    <Content Include="sass\partials\_layout.scss" />
+    <Content Include="sass\partials\_typography.scss" />
+    <Content Include="sass\print.scss" />
+    <Content Include="sass\styles.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,12 +161,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Register.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
