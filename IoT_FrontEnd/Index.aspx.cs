@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Net.Http;
 
 namespace IoT_CollegeLibrary_FrontEnd
 {
@@ -16,7 +17,8 @@ namespace IoT_CollegeLibrary_FrontEnd
 
         protected void btnSignIn_Click(object sender, EventArgs e)
         {
-
-        }
+            using (var client = new HttpClient())
+            {
+            }
     }
 }
