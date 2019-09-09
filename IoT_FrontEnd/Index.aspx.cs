@@ -20,5 +20,6 @@ namespace IoT_CollegeLibrary_FrontEnd
             using (var client = new HttpClient())
             {
             }
+        }
     }
 }
