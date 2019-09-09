@@ -119,11 +119,13 @@
     <Content Include="img\fancybox_sprite%402x.png" />
     <Content Include="img\fancybox_sprite.png" />
     <Content Include="img\hero.jpg" />
+    <Content Include="img\IoTBaggageCounterDevice.png" />
     <Content Include="img\ipad-device.png" />
     <Content Include="img\polygonal-bg.jpg" />
     <Content Include="img\sedna-logo%402x.png" />
     <Content Include="img\sedna-logo.png" />
     <Content Include="img\testimonials-bg.jpg" />
+    <Content Include="Index.aspx" />
     <Content Include="index.html" />
     <Content Include="js\jquery.fancybox.pack.js" />
     <Content Include="js\jquery.flexslider-min.js" />
@@ -167,6 +169,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>

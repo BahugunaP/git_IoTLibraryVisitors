@@ -32,21 +32,8 @@
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="#"><img src="img/sedna-logo.png" alt="Sedna logo"></a></div>
-                    <div class="header-nav">
-                        <nav>
-                            <ul class="primary-nav">
-                                <li><a href="#features">Features</a></li>
-                                <li><a href="#assets">Assets</a></li>
-                                <li><a href="#blog">Blog</a></li>
-                                <li><a href="#download">Download</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="navicon">
-                        <a class="nav-toggle" href="#"><span></span></a>
-                    </div>
-                </div>
+                    <div class="logo"><a href="Index.aspx"><img src="img/sedna-logo.png" alt="Sedna logo"></a></div>
+               </div>
             </header>
         </section>
    <div class="down-arrow floating-arrow"><a href="#"><i class="fa fa-angle-down"></i></a></div>
@@ -83,31 +70,27 @@
             </div>
         </div>
     </section>
-    <footer>
+
+     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
                     <div class="footer-links">
                         <ul class="footer-group">
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Sign up</a></li>
-                            <li><a href="http://tympanus.net/codrops/licensing/">Licence</a></li>
-                            <li><a href="http://tympanus.net/codrops/">Codrops</a></li>
-                            <li><a href="http://www.peterfinlan.com/">Peter Finlan</a></li>
+                            <li><a href="Index.aspx">IoT Platforms</a></li>
+                            <li><a href="Register.aspx">Sign up</a></li>
                         </ul>
-                        <p>Copyright © 2015 <a href="#">Sedna</a><br>
-                        <a href="http://tympanus.net/codrops/licensing/">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://www.peterfinlan.com/">Peter Finlan</a>.</p>
+                        <p>Copyright © 2019 <a href="#">PiCs Academy</a><br>
+                        <a href="http://picstrainingacademy.com/">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://pinetrainingacademy.com/">PinE Training Academy</a>.</p>
                     </div>
                 </div>
                 <div class="social-share">
-                    <p>Share Sedna with your friends</p>
-                    <a href="https://twitter.com/peterfinlan" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
+                    <p>Share PiCs Workshop learnign with your friends</p>
+                    <a href="https://www.facebook.com/PiCSTrainingAcademy/" class="facebook-share"><i class="fa fa-facebook"></i></a>
                 </div>
             </div>
         </div>
     </footer>
-
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
