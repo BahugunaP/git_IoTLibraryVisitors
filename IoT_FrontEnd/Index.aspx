@@ -107,7 +107,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="feature-list">
-                        <h3>Designed with Sketch!</h3>
+                        <h3>Desig IoT Web Platform from Scratch!</h3>
                         <p>Baggage Counter is an automatic instrument used for the exact counting of bags passing over the conveyor belt/loader unit, it is Photoelectric Laser Sensor based bag counter unit fitted beside the conveyer unit. </p>
                         <p>At interval of second or two this devices pushes data to netwotk and this data is persisted on a database server for reporting purpose. This device will have on/off button.  
                         </p>
